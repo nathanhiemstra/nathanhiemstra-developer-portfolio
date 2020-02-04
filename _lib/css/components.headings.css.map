@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA;eACgB;EACd,MAAM,ECmaS,CAAC;EDlahB,OAAO,ECmaS,WAAiC;EDlajD,WAAW,ECicO,MAAiB;;AD9brC,eAAgB;EACd,OAAO,ECgaoB,CAAC;ED/Z5B,SAAS,ECiaoB,KAA4B;EDhazD,OAAO,EC+ZoB,GAAG;;AD5ZhC,YAAa;EACX,SAAS,EC6FY,GAAG;;AD1F1B,YAAa;EACX,SAAS,EC0Fa,KAAK;;ADvF7B,YAAa;EACX,SAAS,ECuFY,MAAM;;ADpF7B,YAAa;EACX,SAAS,ECoFa,GAAG;;ADjF3B,YAAa;EACX,SAAS,ECiFY,MAAM;;AD9E7B,YAAa;EACX,SAAS,EC8Ea,MAAM",
+"sources": ["../scss/components.headings.scss","../scss/mixins/_settings.global.scss"],
+"names": [],
+"file": "components.headings.css"
+}

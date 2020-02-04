@@ -1,0 +1,76 @@
+.c-table {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.c-table__caption {
+  display: flex;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-left: 0;
+  max-width: 100%;
+  padding: 0.5em 0;
+  color: #96a8b2;
+  font-size: 0.83em;
+  text-align: left; }
+
+.c-table__row,
+.c-table__head,
+.c-table__body {
+  display: flex;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  max-width: 100%; }
+
+.c-table--striped :not(.c-table__row--heading).c-table__row:nth-of-type(odd) {
+  background-color: #e5eaec;
+  color: initial; }
+
+.c-table__cell {
+  display: flex;
+  flex: 1;
+  padding: 0.5em;
+  text-align: left;
+  overflow: auto; }
+
+.c-table__row--heading .c-table__cell {
+  display: flex;
+  flex: 1;
+  border-bottom: 1px solid #B0BEC5;
+  background-color: #cad4d8;
+  color: initial;
+  font-size: 1em;
+  font-weight: bold; }
+
+.c-table--striped .c-table__row--heading .c-table__cell {
+  background-color: #FFF;
+  color: initial; }
+
+.c-table--clickable :not(.c-table__row--heading).c-table__row:hover .c-table__cell,
+.c-table__row--clickable:hover .c-table__cell {
+  background-color: initial;
+  color: #0d364a;
+  cursor: pointer; }
+
+.c-table__row--disabled {
+  background-color: initial;
+  color: #96a8b2;
+  cursor: default; }
+
+.c-table--clickable :not(.c-table__row--heading).c-table__row--disabled:hover .c-table__cell,
+.c-table__row--disabled:hover .c-table__cell {
+  background-color: initial;
+  color: #96a8b2;
+  cursor: not-allowed; }
+
+.c-table--condensed {
+  font-size: 0.83em; }
+  .c-table--condensed .c-table__cell {
+    padding: 0.25em; }
+
+/*# sourceMappingURL=components.tables.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,QAAS;EACP,SAAS,EC0GY,GAAG;;ADvG1B,SAAU;EACR,SAAS,ECuGa,KAAK;;ADpG7B,QAAS;EACP,SAAS,ECoGY,MAAM;;ADjG7B,SAAU;EACR,SAAS,ECiGa,GAAG;;AD9F3B,QAAS;EACP,SAAS,EC8FY,MAAM;;AD3F7B,SAAU;EACR,SAAS,EC2Fa,MAAM",
+"sources": ["../scss/utilities.sizes.scss","../scss/mixins/_settings.global.scss"],
+"names": [],
+"file": "utilities.sizes.css"
+}

@@ -1,0 +1,63 @@
+// .nh-header {
+//     &--primary {
+//         background: url("/_lib/images/global/header-lights.jpg") 0 100% no-repeat;
+//         background-size: cover;
+//     }
+// }
+
+.nh-c-header {
+  &-banner {
+    &--text {
+      position: absolute;
+      left: 0;
+      right: 0;
+    }
+
+    &--primary {
+      line-height: 30px;
+      bottom: 0;
+    }
+
+    &--secondary {
+      bottom: -43px;
+      line-height: 1;
+    }
+
+    font-size: 3em;
+    font-weight: 100;
+    text-transform: lowercase;
+    margin-top: 0;
+    padding-top: 15vw;
+    line-height: 0.9;
+    position: relative;
+    background: url(/_lib/images/global/chandelier-blury.jpg) 50% 50% no-repeat;
+    background-color: #a07a77;
+    background-size: cover;
+  }
+
+  &-title {
+    font-size: 0.875em;
+  }
+}
+
+body {
+  color: #145271;
+}
+
+.nh-skills-list {
+  .c-badge {
+    margin: $spacing-tiny;
+  }
+}
+
+.nh-headline-secondary {
+  text-transform: uppercase;
+}
+
+main {
+  display: inline-block;
+}
+
+.u-display-inline-block {
+  display: inline-block;
+}

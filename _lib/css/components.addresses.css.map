@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,UAAW;ECOT,OAAO,EAAE,KAAK;EACd,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,OAAgB;EDPzB,UAAU,EE0JS,MAAM;;AFvJ3B,mBAAoB;EAClB,OAAO,EAAE,KAAK;EACd,WAAW,EEyrBW,IAAuB",
+"sources": ["../scss/components.addresses.scss","../scss/mixins/_components.typography.scss","../scss/mixins/_settings.global.scss"],
+"names": [],
+"file": "components.addresses.css"
+}

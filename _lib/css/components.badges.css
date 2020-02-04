@@ -1,0 +1,65 @@
+.c-badge {
+  border: 1px solid #96a8b2;
+  background-color: #96a8b2;
+  color: #FFF;
+  display: inline-block;
+  margin: 0;
+  padding: 0.25em 0.5em;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 1.2; }
+  .c-badge.c-badge--ghost {
+    border: 1px solid #96a8b2;
+    background-color: transparent;
+    color: #96a8b2; }
+
+.c-badge--rounded {
+  border-radius: 30em; }
+
+.c-badge--brand {
+  border: 1px solid #2C3E50;
+  background-color: #2C3E50;
+  color: #FFF; }
+  .c-badge--brand.c-badge--ghost {
+    border: 1px solid #2C3E50;
+    background-color: transparent;
+    color: #2C3E50; }
+
+.c-badge--info {
+  border: 1px solid #145271;
+  background-color: #145271;
+  color: #FFF; }
+  .c-badge--info.c-badge--ghost {
+    border: 1px solid #145271;
+    background-color: transparent;
+    color: #145271; }
+
+.c-badge--warning {
+  border: 1px solid #FF9800;
+  background-color: #FF9800;
+  color: #FFF; }
+  .c-badge--warning.c-badge--ghost {
+    border: 1px solid #FF9800;
+    background-color: transparent;
+    color: #FF9800; }
+
+.c-badge--success {
+  border: 1px solid #4CAF50;
+  background-color: #4CAF50;
+  color: #FFF; }
+  .c-badge--success.c-badge--ghost {
+    border: 1px solid #4CAF50;
+    background-color: transparent;
+    color: #4CAF50; }
+
+.c-badge--error {
+  border: 1px solid #F44336;
+  background-color: #F44336;
+  color: #FFF; }
+  .c-badge--error.c-badge--ghost {
+    border: 1px solid #F44336;
+    background-color: transparent;
+    color: #F44336; }
+
+/*# sourceMappingURL=components.badges.css.map */

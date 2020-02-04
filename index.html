@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="_lib/css/themes/blaze.nh.css">
+  <link rel="stylesheet" href="_lib/css/blaze.colors.min.css"> 
+    <title>Vue CDN</title>
+</head>
+<body class="c-text">
+
+<div id="app">
+  <header >
+    <div class="u-centered">
+      <h2 class="nh-c-header-banner">
+      <span class="nh-c-header-banner--text nh-c-header-banner--primary u-color-white">Nathan</span>
+      <span class="nh-c-header-banner--text nh-c-header-banner--secondary u-color-brand">Hiemstra</span></h2>
+      <h1 class="nh-c-header-title u-color-brand-light">front end web developer</h1>
+    </div>
+    <div class="nh-tagline u-window-box--xsmall u-color-white u-bg-cyan">
+      <div class="o-container o-container--medium ">
+        <div class="o-grid__cell u-window-box--large">
+          <p>Howdy! I’m a Front End Developer living in Chicago. I’ve been making websites ever since they crawled out of the void on tables 90s. Now (in the future) I write clean, scalable, reusable code.</p>
+          <p>When not coding, I publish <a href="https://www.amazon.com/s?i=stripbooks&rh=p_27%3ANathan+Hiemstra&s=relevancerank&text=Nathan+Hiemstra&ref=dp_byline_sr_book_1" target="_blank">art books</a>, draw <a href="http://www.nathanhiemstra.com/caricatures/" target="_blank">caricature sketches</a> at <a href="http://vbyc.org" target="_blank">camp</a>, and snow bird in the winter. #thegoodlife</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- START - SKILLS -->
+    <div class="u-bg-grey-lighter u-display-inline-block">
+      <div class="o-container o-container--medium ">
+        <div class="o-grid__cell o-grid__cell--width-100">
+          <h2 class="nh-headline-secondary">Skills</h2>
+          <ul class="c-list--unstyled nh-skills-list u-flex u-flex-wrap">
+            <li class="c-badge u-xlarge">HTML5</li>
+            <li class="c-badge u-xlarge">CSS3</li>
+            <li class="c-badge u-xlarge">SASS</li>
+            <li class="c-badge u-medium">Responsive</li>
+            <li class="c-badge u-medium">Git</li>
+            <li class="c-badge u-medium">jQuery</li>
+            <li class="c-badge u-medium">JavaScript</li>
+            <li class="c-badge u-medium">Gulp</li>
+            <li class="c-badge u-medium">Patern Libraries</li>
+            <li class="c-badge u-medium">PHP</li>
+            <li class="c-badge u-medium">Wordpress</li>
+            <li class="c-badge u-medium">Squarespace</li>
+            <li class="c-badge u-medium">Bootstrap</li>
+            <li class="c-badge u-medium">HTML Emails</li>
+            <li class="c-badge u-medium">Design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END - SKILLS -->
+  <!-- START - EXAMPLES -->
+  <div class="o-container o-container--medium ">
+    <div class="o-grid__cell">
+      <h2 class="nh-headline-secondary">Work</h2>
+      <ul>
+        <li>
+          <h4>Avon</h4>
+          <p>XXX</p>
+          <p>XXX</p>
+        </li>
+        <li>
+          <h4>Van Buren Youth Camp</h4>
+          <p>XXX</p>
+          <p>XXX</p>
+        </li>
+        <li>
+          <h4>Avon</h4>
+          <p>XXX</p>
+          <p>XXX</p>
+        </li>
+        <li>
+          <h4>Nissan Commercial Vehicle - Aftermarket</h4>
+          <p>An app for selecting vehicle add-ons that are saved as a PDF or HTML email. </p>
+          <p>As lead developer I architected the HTML , CSS, and Javascript.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- END - EXAMPLES -->
+</main>
+
+<footer class="u-bg-grey-darker">
+  <div class="o-container o-container--medium ">
+    <div class="o-grid__cell">
+      <ul>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+      </ul>
+      <p><a href="mailto:nathanhiemstra@gmail.com">nathanhiemstra@gmail.com</a></p>
+    </div>
+  </div>
+</footer>
+</div>
+    
+    
+  <script src="vue-cdn/node_modules/vue/dist/vue.js"></script>
+  <script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!'
+        }
+    })
+  </script>
+</body>
+</html>

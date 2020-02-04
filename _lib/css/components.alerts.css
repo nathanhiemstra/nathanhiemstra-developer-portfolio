@@ -1,0 +1,54 @@
+.c-alerts {
+  display: block;
+  position: absolute;
+  width: 250px;
+  max-height: 100%;
+  background-color: transparent;
+  z-index: 300;
+  overflow-y: auto; }
+
+.c-alerts--topleft {
+  top: 1em;
+  left: 1em; }
+
+.c-alerts--topright {
+  top: 1em;
+  right: 1em; }
+
+.c-alerts--bottomleft {
+  bottom: 0;
+  left: 1em; }
+
+.c-alerts--bottomright {
+  right: 1em;
+  bottom: 0; }
+
+.c-alert {
+  background-color: #96a8b2;
+  color: #FFF;
+  position: relative;
+  margin: 0 0 1em 0;
+  padding: 1em 3em 1em 1em;
+  border-radius: 4px; }
+
+.c-alert--brand {
+  background-color: #2C3E50;
+  color: #FFF; }
+
+.c-alert--info {
+  background-color: #145271;
+  color: #FFF; }
+
+.c-alert--warning {
+  background-color: #FF9800;
+  color: #FFF; }
+
+.c-alert--success {
+  background-color: #4CAF50;
+  color: #FFF; }
+
+.c-alert--error {
+  background-color: #F44336;
+  color: #FFF; }
+
+/*# sourceMappingURL=components.alerts.css.map */
