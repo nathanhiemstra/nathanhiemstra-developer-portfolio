@@ -80,7 +80,7 @@
   font-weight: bold; }
 
 .c-card__item--brand {
-  background-color: #B62491;
+  background-color: #76009f;
   color: #FFF; }
 
 .c-card__item--info {
@@ -109,7 +109,7 @@
   cursor: pointer; }
   .c-card--menu .c-card__item:not(.c-card__item--disabled):not(.c-card__item--divider):hover.c-card__item--brand,
   .c-card--accordion label.c-card__item:not(.c-card__item--disabled):not(.c-card__item--divider):hover.c-card__item--brand {
-    background-color: #d632ad; }
+    background-color: #9800cd; }
   .c-card--menu .c-card__item:not(.c-card__item--disabled):not(.c-card__item--divider):hover.c-card__item--info,
   .c-card--accordion label.c-card__item:not(.c-card__item--disabled):not(.c-card__item--divider):hover.c-card__item--info {
     background-color: #1b6e98; }
@@ -129,7 +129,7 @@
   font-weight: bold; }
   .c-card__item--active.c-card__item--brand,
   .c-card--accordion > input:checked + .c-card__item.c-card__item--brand {
-    background-color: #901c72; }
+    background-color: #540071; }
   .c-card__item--active.c-card__item--info,
   .c-card--accordion > input:checked + .c-card__item.c-card__item--info {
     background-color: #0d364a; }

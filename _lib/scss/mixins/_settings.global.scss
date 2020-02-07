@@ -53,7 +53,9 @@ $color-yellow: #FFEB3B !default;
 $color-orange: #FF9800 !default;
 $color-brown: #795548 !default;
 
-$color-brand: #B62491 !default;
+$color-nh-blue-light: #4497c1 !default;
+
+$color-brand: #76009f !default;
 $color-info: $color-blue !default;
 $color-warning: $color-orange !default;
 $color-success: $color-green !default;
@@ -564,15 +566,15 @@ $form-element-label-padding: 0 0 $spacing-small 0 !default;
 //
 // Links
 //
-$link-color: map-get($colors, blue-dark) !default;
-$link-brand-color: map-get($colors, brand) !default;
+$link-color: $color-nh-blue-light !default;
+$link-brand-color: $color-nh-blue-light !default;
 $link-info-color: map-get($colors, info) !default;
 $link-warning-color: map-get($colors, warning) !default;
 $link-success-color: map-get($colors, success) !default;
 $link-error-color: map-get($colors, error) !default;
 $link-reverse-color: $color-reverse !default;
-$link-text-decoration: none !default;
-$link-hover-text-decoration: underline !default;
+$link-text-decoration: underline !default;
+$link-hover-text-decoration: none !default;
 
 
 //

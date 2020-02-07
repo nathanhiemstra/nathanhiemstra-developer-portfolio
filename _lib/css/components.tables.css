@@ -54,7 +54,7 @@
 .c-table--clickable :not(.c-table__row--heading).c-table__row:hover .c-table__cell,
 .c-table__row--clickable:hover .c-table__cell {
   background-color: initial;
-  color: #0d364a;
+  color: #4497c1;
   cursor: pointer; }
 
 .c-table__row--disabled {
