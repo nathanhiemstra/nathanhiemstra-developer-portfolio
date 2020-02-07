@@ -1,30 +1,22 @@
-/* line 3, ../scss/utilities.alignment.scss */
 .u-centered {
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 7, ../scss/utilities.alignment.scss */
 .u-center-block {
-  position: relative;
-}
+  position: relative; }
 
-/* line 11, ../scss/utilities.alignment.scss */
 .u-center-block__content,
 .u-absolute-center {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-}
+  transform: translate(-50%, -50%); }
 
-/* line 16, ../scss/utilities.alignment.scss */
 .u-center-block__content--vertical {
   left: auto;
-  transform: translateY(-50%);
-}
+  transform: translateY(-50%); }
 
-/* line 20, ../scss/utilities.alignment.scss */
 .u-center-block__content--horizontal {
   top: auto;
-  transform: translateX(-50%);
-}
+  transform: translateX(-50%); }
+
+/*# sourceMappingURL=utilities.alignment.css.map */

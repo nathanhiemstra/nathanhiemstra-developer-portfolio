@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,UAAU,EAAE,UAAU;;AAGxB;;OAEQ;EACN,UAAU,EAAE,OAAO;;AAGrB,IAAK;EACH,MAAM,EAAE,CAAC",
+"sources": ["../scss/generics.global.scss"],
+"names": [],
+"file": "generics.global.css"
+}

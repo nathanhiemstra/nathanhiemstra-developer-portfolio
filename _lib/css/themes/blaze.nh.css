@@ -4695,7 +4695,7 @@ select.c-field:not([multiple]) {
   padding-top: 15vw;
   line-height: 0.9;
   position: relative;
-  background: url(/_lib/images/global/chandelier-blury.jpg) 50% 50% no-repeat;
+  background: url(../../images/global/chandelier-blury.jpg) 50% 50% no-repeat;
   background-color: #a07a77;
   background-size: cover; }
   .nh-c-header-banner--text {
@@ -4720,11 +4720,11 @@ body {
 .nh-headline-secondary {
   text-transform: uppercase; }
 
-main {
-  display: inline-block; }
-
 .u-display-inline-block {
   display: inline-block; }
+
+.nh-portrait {
+  max-width: 125px; }
 
 .c-text {
   font-family: "PT Sans", sans-serif; }
