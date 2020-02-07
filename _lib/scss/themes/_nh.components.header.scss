@@ -30,8 +30,9 @@
     padding-top: 15vw;
     line-height: 0.9;
     position: relative;
-    background: url(../../images/global/chandelier-blury.jpg) 50% 50% no-repeat;
-    background-color: #a07a77;
+
+    // background: url(../../images/global/chandelier-blury.jpg) 50% 50% no-repeat;
+    background-color: #B62491;
     background-size: cover;
   }
 
@@ -60,4 +61,24 @@ body {
 
 .nh-portrait {
   max-width: 125px;
+  margin-top: $spacing-large;
+}
+
+.work-item {
+  // background: url(/_lib/images/global/divider.svg) 50% 100% no-repeat;
+  // background-size: 80px auto;
+  margin-bottom: $spacing-super;
+  padding-bottom: $spacing-super;
+
+  p:first-child {
+    margin-top: 0;
+  }
+
+  .o-image {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  // h3 {
+  //   font-size: 
+  // }
 }

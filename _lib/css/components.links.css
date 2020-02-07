@@ -16,15 +16,15 @@
 
 .c-link--brand {
   background-color: transparent;
-  color: #2C3E50; }
+  color: #B62491; }
   .c-link--brand:not(:disabled):visited {
-    color: #1c2732; }
+    color: #901c72; }
   .c-link--brand:not(:disabled):hover {
     background-color: transparent;
-    color: #3c556e; }
+    color: #d632ad; }
   .c-link--brand:not(:disabled):active {
     background-color: transparent;
-    color: #3c556e; }
+    color: #d632ad; }
 
 .c-link--info {
   background-color: transparent;

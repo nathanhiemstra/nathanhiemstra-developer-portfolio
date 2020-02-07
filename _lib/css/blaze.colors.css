@@ -77,10 +77,10 @@
   background-color: #795548; }
 
 .u-color-brand {
-  color: #2C3E50; }
+  color: #B62491; }
 
 .u-bg-brand {
-  background-color: #2C3E50; }
+  background-color: #B62491; }
 
 .u-color-info {
   color: #145271; }
@@ -129,6 +129,12 @@
 
 .u-bg-grey-dark {
   background-color: #96a8b2; }
+
+.u-color-grey-darkest {
+  color: #3d4b53; }
+
+.u-bg-grey-darkest {
+  background-color: #3d4b53; }
 
 .u-color-red-dark {
   color: #ef1d0d; }
@@ -365,28 +371,28 @@
   background-color: #3f2d26; }
 
 .u-color-brand-dark {
-  color: #1c2732; }
+  color: #901c72; }
 
 .u-bg-brand-dark {
-  background-color: #1c2732; }
+  background-color: #901c72; }
 
 .u-color-brand-darker {
-  color: #0b1015; }
+  color: #691554; }
 
 .u-bg-brand-darker {
-  background-color: #0b1015; }
+  background-color: #691554; }
 
 .u-color-brand-light {
-  color: #3c556e; }
+  color: #d632ad; }
 
 .u-bg-brand-light {
-  background-color: #3c556e; }
+  background-color: #d632ad; }
 
 .u-color-brand-lighter {
-  color: #4d6c8b; }
+  color: #de58bc; }
 
 .u-bg-brand-lighter {
-  background-color: #4d6c8b; }
+  background-color: #de58bc; }
 
 .u-color-info-dark {
   color: #0d364a; }

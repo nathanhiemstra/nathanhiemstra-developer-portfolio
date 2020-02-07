@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="_lib/css/themes/blaze.nh.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/blaze/3.6.3/blaze.colors.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="_lib/css/themes/blaze.nh.css">
     <title>Nathan Hiemstra - Front End Developer</title>
 </head>
 <body class="c-text">
@@ -17,9 +16,9 @@
       <h2 class="nh-c-header-banner">
       <span class="nh-c-header-banner--text nh-c-header-banner--primary u-color-white">Nathan</span>
       <span class="nh-c-header-banner--text nh-c-header-banner--secondary u-color-brand">Hiemstra</span></h2>
-      <h1 class="nh-c-header-title u-color-brand-light">front end  developer</h1>
+      <h1 class="nh-c-header-title u-color-brand-light u-window-box--small">Front End Developer</h1>
       <img src="/_lib/images/global/nathan-hiemstra.jpg" class="c-badge--rounded nh-portrait">
-      <div><a href="mailto:nathanhiemstra@gmail.com">get in touch</a></div>
+      <div class="u-window-box--large"><a href="mailto:nathanhiemstra@gmail.com" >Get in touch</a></div>
     </div>
     <div class="nh-tagline u-window-box--xsmall u-color-white u-bg-cyan">
       <div class="o-container o-container--medium ">
@@ -30,6 +29,7 @@
       </div>
     </div>
   </header>
+
   <main>
     <!-- START - SKILLS -->
     <section class="u-bg-grey-lighter">
@@ -50,51 +50,90 @@
       <div class="o-grid__cell">
         <h2 class="nh-headline-secondary">Work</h2>
       </div>
-        <ul class="c-list c-list--unstyled">
+        <ul class="c-list c-list--unstyled ">
        
 
 
-
-          <li>
-            <img src="/_lib/images/portfolio/sm/avon.jpg" class="o-image">
-            <div class="u-window-box--large">
-              <h3>Avon</h4>
-              <p>We designed, developed, and executed Avon’s first on-time product launch in 15 years. </p> 
-              <p>I lead a team of developers who delivered a style guide and pattern library, built on Bootstrap, and customized using Atomic Design methodology. Our team directed Avon IT to implement this complete redesign into their system. </p> 
-              <p>HTML, SASS, CSS, JavaScript, Git, Gulp, Twig, Deploybot</p>
+          <li class="work-item">
+            <div class="o-grid__cell">
+              <h3 class="c-heading">Avon</h3>
+            </div>
+            <div class="o-grid o-grid--small-full o-grid--medium-full">
+              <div class="o-grid__cell">
+                <p>We designed, developed, and executed Avon’s first on-time product launch in 15 years. </p> 
+                <p>I lead a team of developers who delivered a <a href="http://avon.nathanhiemstra.com/" target="_blank">style guide and pattern library</a>, built on Bootstrap, and customized using Atomic Design methodology. Our team directed Avon IT to implement this complete redesign into their system. </p> 
+                <p>HTML, SASS, CSS, JavaScript, Git, Gulp, Twig, Deploybot</p>
+              </div>
+              <div class="o-grid__cell">
+                <a href="http://avon.nathanhiemstra.com/" target="_blank"><img src="/_lib/images/portfolio/sm/avon.jpg" class="o-image"></a>
+              </div>
             </div>
           </li>
-          <li>
-            <img src="/_lib/images/portfolio/sm/nissan.jpg" class="o-image">
-            <h3>Nissan Commercial Vehicles</h4>
-            <p>I led a team of developers in model-year updates, implementation of new features, and continual maintenance of Nissan Commercial Vehicle’s website. </p>
-            <p>An initiative I took was creating a command line script that reduced the multiple-day task of exporting 2500 images for the model year update under one hour. This handled variances of four vehicle models, interior and exterior shots, 10 colors, and multiple sizes— all for their 8-frame, 360 rotating image.</p>
-            <p>https://www.nissanusa.com/vehicles/commercial/nv-cargo/gallery.html</p>
-            <p>HTML, SASS, CSS, JavaScript, Git, BASH, Java</p>
-          </li>
-          <li>
-            <li>
-            <img src="/_lib/images/portfolio/sm/vbyc.jpg" class="o-image">
-            <h3>Van Buren Youth Camp</h4>
-            <p>I led UI, UX, and the copywriting team on this pro bono redesign. We developed a Wordpress theme and built the full solution on Bootstrap.</p> 
-            <p>HTML, SASS, CSS, Bootstrap, PHP, Wordpress, JavaScript</p>
-          </li>
-          <li>
-            <img src="/_lib/images/portfolio/sm/united.jpg" class="o-image">
-            <h3>United Airlines</h4>
-            <p>We migrated United Agent’s command-line interface to a modern, scalable GUI. </p>
-            <p>I led a team of developers who created a style guide and module library that served as a code delivery method. We worked closely with United IT to implement this into their system.</p>
-            <p>HTML, SASS, CSS, JavaScript, Git, Jekyll</p>
 
+          <li class="work-item">
+            <div class="o-grid__cell">
+              <h3 class="c-heading"><a href="https://www.nissanusa.com/nissan-commercial-vehicles.html" target="_blank">Nissan Commercial Vehicles</a></h3>
+            </div>
+            <div class="o-grid o-grid--small-full o-grid--medium-full">
+              <div class="o-grid__cell">
+                <p>I led a team of developers in model-year updates, implementation of new features, and continual maintenance of Nissan Commercial Vehicle’s website. </p>
+                <p>An initiative I took was creating a command line script that reduced the multiple-day task of exporting 2500 images for the model year update under one hour. This handled variances of four vehicle models, interior and exterior shots, 10 colors, and multiple sizes— all for their 8-frame, <a href="https://www.nissanusa.com/vehicles/commercial/nv-cargo/gallery.html" target="_blank">360 degree rotating image</a>.</p>
+         
+                <p>HTML, SASS, CSS, JavaScript, Git, BASH, Java</p>
+              </div>
+              <div class="o-grid__cell">
+                <a href="https://www.nissanusa.com/nissan-commercial-vehicles.html" target="_blank"><img src="/_lib/images/portfolio/sm/nissan.jpg" class="o-image"></a>
+              </div>
+            </div>
           </li>
-          <li>
-            <img src="/_lib/images/portfolio/sm/humana.jpg" class="o-image">
-            <h3>Humana</h4>
-            <p>The first responsive and accessible redesign of Humana.com.</p>
-            <p>Our team worked along side Humana’s developers to implement module patterns into Humana’s Sitecore and build out pages.</p> 
-            <p>HTML, SASS, CSS, JavaScript, Sitecore</p>
 
+          <li class="work-item">
+            <div class="o-grid__cell">
+              <h3 class="c-heading"><a href="http://vbyc.org" target="_blank">Van Buren Youth Camp</a></h3>
+            </div>
+            <div class="o-grid o-grid--small-full o-grid--medium-full">
+              <div class="o-grid__cell">
+                <p>I led UI, UX, and the copywriting team on this pro bono redesign. We developed a Wordpress theme and built the full solution on Bootstrap.</p> 
+                <p>HTML, SASS, CSS, Bootstrap, PHP, Wordpress, JavaScript</p>
+              </div>
+              <div class="o-grid__cell">
+                <a href="http://vbyc.org" target="_blank"><img src="/_lib/images/portfolio/sm/vbyc.jpg" class="o-image"></a>
+              </div>
+            </div>
           </li>
+
+          <li class="work-item">
+            <div class="o-grid__cell">
+              <h3 class="c-heading">United Airlines</h3>
+            </div>
+            <div class="o-grid o-grid--small-full o-grid--medium-full">
+              <div class="o-grid__cell">
+                <p>We migrated United Agent’s command-line interface to a modern, scalable GUI. </p>
+                <p>I led a team of developers who created a style guide and module library that served as a code delivery method. We worked closely with United IT to implement this into their system.</p>
+                <p>HTML, SASS, CSS, JavaScript, Git, Jekyll</p>
+              </div>
+              <div class="o-grid__cell">
+                <img src="/_lib/images/portfolio/sm/united.jpg" class="o-image">
+              </div>
+            </div>
+          </li>
+
+          <li class="work-item">
+            <div class="o-grid__cell">
+              <h3 class="c-heading"><a href="https://www.humana.com/" target="_blank">Humana</a></h3>
+            </div>
+            <div class="o-grid o-grid--small-full o-grid--medium-full">
+              <div class="o-grid__cell">
+                <p>The first responsive and accessible redesign of Humana.com.</p>
+                <p>Our team worked along side Humana’s developers to implement module patterns into Humana’s Sitecore and build out pages.</p> 
+                <p>HTML, SASS, CSS, JavaScript, Sitecore</p>
+              </div>
+              <div class="o-grid__cell">
+                <a href="https://www.humana.com/" target="_blank"><img src="/_lib/images/portfolio/sm/humana.jpg" class="o-image"></a>
+              </div>
+            </div>
+          </li>
+
         </ul>
       </div>
     </section>
@@ -104,11 +143,14 @@
   <footer class="u-bg-grey-darker">
     <div class="o-container o-container--medium ">
       <div class="o-grid__cell">
-        <ul>
-          <li><a href="#">LinkedIn</a></li>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Facebook</a></li>
+
+        <ul class="c-list c-list--inline">
+          <li class="c-list__item"><a href="https://www.linkedin.com/in/nathan-hiemstra-50187ab/" target="_blank">LinkedIn</a></li>
+          <li class="c-list__item"><a href="https://www.instagram.com/animatedfoundphotos/" target="_blank">Instagram</a></li>
+          <li class="c-list__item"><a href="http://www.nathanhiemstra.com/" target="_blank">Art</a></li>
         </ul>
+
+
         <p><a href="mailto:nathanhiemstra@gmail.com">nathanhiemstra@gmail.com</a></p>
       </div>
     </div>

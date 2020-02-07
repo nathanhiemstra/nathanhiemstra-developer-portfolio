@@ -18,13 +18,13 @@
   border-radius: 30em; }
 
 .c-badge--brand {
-  border: 1px solid #2C3E50;
-  background-color: #2C3E50;
+  border: 1px solid #B62491;
+  background-color: #B62491;
   color: #FFF; }
   .c-badge--brand.c-badge--ghost {
-    border: 1px solid #2C3E50;
+    border: 1px solid #B62491;
     background-color: transparent;
-    color: #2C3E50; }
+    color: #B62491; }
 
 .c-badge--info {
   border: 1px solid #145271;
