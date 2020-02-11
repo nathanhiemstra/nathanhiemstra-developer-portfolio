@@ -2009,7 +2009,7 @@ body {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
 
 .c-blockquote--brand {
-  border-left: 5px solid #76009f; }
+  border-left: 5px solid #1b6e98; }
 
 .c-blockquote--info {
   border-left: 5px solid #145271; }
@@ -2061,13 +2061,13 @@ body {
   border-radius: 30em; }
 
 .c-badge--brand {
-  border: 1px solid #76009f;
-  background-color: #76009f;
+  border: 1px solid #1b6e98;
+  background-color: #1b6e98;
   color: #FFF; }
   .c-badge--brand.c-badge--ghost {
-    border: 1px solid #76009f;
+    border: 1px solid #1b6e98;
     background-color: transparent;
-    color: #76009f; }
+    color: #1b6e98; }
 
 .c-badge--info {
   border: 1px solid #145271;
@@ -2301,7 +2301,7 @@ h6.c-heading {
   font-weight: bold; }
 
 .c-card__item--brand {
-  background-color: #76009f;
+  background-color: #1b6e98;
   color: #FFF; }
 
 .c-card__item--info {
@@ -2330,7 +2330,7 @@ h6.c-heading {
   cursor: pointer; }
   .c-card--menu .c-card__item:not(.c-card__item--disabled):not(.c-card__item--divider):hover.c-card__item--brand,
   .c-card--accordion label.c-card__item:not(.c-card__item--disabled):not(.c-card__item--divider):hover.c-card__item--brand {
-    background-color: #9800cd; }
+    background-color: #228abf; }
   .c-card--menu .c-card__item:not(.c-card__item--disabled):not(.c-card__item--divider):hover.c-card__item--info,
   .c-card--accordion label.c-card__item:not(.c-card__item--disabled):not(.c-card__item--divider):hover.c-card__item--info {
     background-color: #1b6e98; }
@@ -2350,7 +2350,7 @@ h6.c-heading {
   font-weight: bold; }
   .c-card__item--active.c-card__item--brand,
   .c-card--accordion > input:checked + .c-card__item.c-card__item--brand {
-    background-color: #540071; }
+    background-color: #145271; }
   .c-card__item--active.c-card__item--info,
   .c-card--accordion > input:checked + .c-card__item.c-card__item--info {
     background-color: #0d364a; }
@@ -2429,17 +2429,17 @@ h6.c-heading {
 
 .c-button--brand {
   border: 1px solid transparent;
-  background-color: #76009f;
+  background-color: #1b6e98;
   color: #FFF; }
   .c-button--brand.c-button--active {
-    background-color: #540071; }
+    background-color: #145271; }
   .c-button--brand:not(:disabled):hover {
-    background-color: #9800cd; }
+    background-color: #228abf; }
   .c-button--brand:not(:disabled):focus {
     border-color: #145271;
     box-shadow: inset 0 0 0 2px #1b6e98; }
   .c-button--brand:not(:disabled):active {
-    background-color: #540071; }
+    background-color: #145271; }
 
 .c-button--info {
   border: 1px solid transparent;
@@ -2517,22 +2517,22 @@ h6.c-heading {
     color: #FFF; }
 
 .c-button--ghost-brand {
-  border: 1px solid #76009f;
+  border: 1px solid #1b6e98;
   background-color: transparent;
-  color: #76009f; }
+  color: #1b6e98; }
   .c-button--ghost-brand.c-button--active {
-    border-color: #540071;
-    background-color: #540071;
+    border-color: #145271;
+    background-color: #145271;
     color: #FFF; }
   .c-button--ghost-brand:not(:disabled):hover {
-    background-color: #76009f;
+    background-color: #1b6e98;
     color: #FFF; }
   .c-button--ghost-brand:not(:disabled):focus {
     border-color: #145271;
     box-shadow: inset 0 0 0 2px #1b6e98; }
   .c-button--ghost-brand:not(:disabled):active {
-    border-color: #540071;
-    background-color: #540071;
+    border-color: #145271;
+    background-color: #145271;
     color: #FFF; }
 
 .c-button--ghost-info {
@@ -2808,7 +2808,7 @@ h6.c-heading {
   box-shadow: 0 -0.2em 0 0 #96a8b2 inset; }
 
 .c-tabs--brand .c-tab-heading--active {
-  box-shadow: 0 -0.2em 0 0 #76009f inset; }
+  box-shadow: 0 -0.2em 0 0 #1b6e98 inset; }
 
 .c-tabs--info .c-tab-heading--active {
   box-shadow: 0 -0.2em 0 0 #145271 inset; }
@@ -3068,7 +3068,7 @@ select.c-field:not([multiple]) {
       cursor: not-allowed; }
 
 .c-toggle--brand .c-toggle__track {
-  background-color: #76009f; }
+  background-color: #1b6e98; }
 
 .c-toggle--info .c-toggle__track {
   background-color: #145271; }
@@ -3156,11 +3156,11 @@ select.c-field:not([multiple]) {
     background-color: #96a8b2; }
 
 .c-range--brand:not(:disabled)::-webkit-slider-runnable-track {
-  background-color: #76009f; }
+  background-color: #1b6e98; }
 .c-range--brand:not(:disabled)::-moz-range-track {
-  background-color: #76009f; }
+  background-color: #1b6e98; }
 .c-range--brand:not(:disabled)::-ms-track {
-  background-color: #76009f; }
+  background-color: #1b6e98; }
 
 .c-range--info:not(:disabled)::-webkit-slider-runnable-track {
   background-color: #145271; }
@@ -3333,9 +3333,9 @@ select.c-field:not([multiple]) {
   vertical-align: middle;
   appearance: none;
   user-select: none;
-  border: 1px solid #76009f;
+  border: 1px solid #1b6e98;
   background-color: transparent;
-  color: #76009f;
+  color: #1b6e98;
   min-width: 2.4em;
   border-radius: 30em; }
   .c-pagination__control.c-button--active,
@@ -3357,12 +3357,12 @@ select.c-field:not([multiple]) {
     opacity: 0.5; }
   .c-pagination__control.c-button--active,
   .c-pagination__page.c-button--active {
-    border-color: #540071;
-    background-color: #540071;
+    border-color: #145271;
+    background-color: #145271;
     color: #FFF; }
   .c-pagination__control:not(:disabled):hover,
   .c-pagination__page:not(:disabled):hover {
-    background-color: #76009f;
+    background-color: #1b6e98;
     color: #FFF; }
   .c-pagination__control:not(:disabled):focus,
   .c-pagination__page:not(:disabled):focus {
@@ -3370,12 +3370,12 @@ select.c-field:not([multiple]) {
     box-shadow: inset 0 0 0 2px #1b6e98; }
   .c-pagination__control:not(:disabled):active,
   .c-pagination__page:not(:disabled):active {
-    border-color: #540071;
-    background-color: #540071;
+    border-color: #145271;
+    background-color: #145271;
     color: #FFF; }
 
 .c-pagination__page--current {
-  background-color: #76009f;
+  background-color: #1b6e98;
   color: #FFF; }
 
 .c-pagination__ellipsis {
@@ -3541,7 +3541,7 @@ select.c-field:not([multiple]) {
   border-radius: 4px; }
 
 .c-alert--brand {
-  background-color: #76009f;
+  background-color: #1b6e98;
   color: #FFF; }
 
 .c-alert--info {
@@ -3637,22 +3637,22 @@ select.c-field:not([multiple]) {
 .c-calendar__date--selected,
 .c-calendar__date--selected:hover {
   border: 1px solid transparent;
-  background-color: #76009f;
+  background-color: #1b6e98;
   color: #FFF;
-  border-color: #76009f; }
+  border-color: #1b6e98; }
   .c-calendar__date--selected.c-button--active,
   .c-calendar__date--selected:hover.c-button--active {
-    background-color: #540071; }
+    background-color: #145271; }
   .c-calendar__date--selected:not(:disabled):hover,
   .c-calendar__date--selected:hover:not(:disabled):hover {
-    background-color: #9800cd; }
+    background-color: #228abf; }
   .c-calendar__date--selected:not(:disabled):focus,
   .c-calendar__date--selected:hover:not(:disabled):focus {
     border-color: #145271;
     box-shadow: inset 0 0 0 2px #1b6e98; }
   .c-calendar__date--selected:not(:disabled):active,
   .c-calendar__date--selected:hover:not(:disabled):active {
-    background-color: #540071; }
+    background-color: #145271; }
 
 .c-nav {
   background-color: #111;
@@ -3733,15 +3733,15 @@ select.c-field:not([multiple]) {
   color: #FFF; }
 
 .c-nav__item--brand:not(:disabled):hover {
-  background-color: #76009f;
+  background-color: #1b6e98;
   color: #FFF; }
 .c-nav__item--brand:not(:disabled):focus {
   box-shadow: inset 0 0 0 2px #1b6e98; }
 .c-nav__item--brand:not(:disabled):active {
-  background-color: #540071;
+  background-color: #145271;
   color: #FFF; }
 .c-nav__item--brand.c-nav__item--active {
-  background-color: #76009f;
+  background-color: #1b6e98;
   color: #FFF; }
 
 .c-nav__item--info:not(:disabled):hover {
@@ -3819,7 +3819,7 @@ select.c-field:not([multiple]) {
   content: "-"; }
 
 .c-progress__bar--brand {
-  background-color: #76009f; }
+  background-color: #1b6e98; }
 
 .c-progress__bar--info {
   background-color: #145271; }
@@ -3840,7 +3840,7 @@ select.c-field:not([multiple]) {
   height: 3em;
   margin: 0;
   border-radius: 30em;
-  background-color: #76009f;
+  background-color: #1b6e98;
   color: #FFF; }
 
 .c-avatar[data-text]:after {

@@ -5,9 +5,20 @@
 //     }
 // }
 
-$nh-purple: #76009f;
-$nh-green: #70c700;
-$nh-green-light: #efffd1;
+
+
+
+.nh-bg-purple { background-color: $nh-purple; }
+.nh-bg-purple-dark{ background-color: $nh-purple-dark; }
+.nh-bg-green { background-color: $nh-green; }
+.nh-bg-green-light { background-color: $nh-green-light; }
+.nh-bg-blue-pale { background-color: $nh-blue-pale; }
+.nh-bg-pink { background-color: $nh-pink; }
+.nh-bg-pink-light { background-color: $nh-pink-light; }
+.nh-bg-lime { background-color: $nh-lime; }
+.nh-bg-lime-light { background-color: $nh-lime-light; }
+.nh-bg-orange { background-color: $nh-orange; }
+.nh-bg-coral { background-color: $nh-coral; }
 
 .nh-c-header {
   &-banner {
@@ -25,6 +36,7 @@ $nh-green-light: #efffd1;
     &--secondary {
       bottom: -37px;
       line-height: 1;
+      color: $color-brand
     }
 
     font-size: 2.5em;
@@ -42,7 +54,7 @@ $nh-green-light: #efffd1;
 
     // background: url(../../images/global/chandelier-blury.jpg) 50% 50% no-repeat;
 
-    background-color: $nh-purple;
+    background-color: $color-brand;
     background-size: cover;
   }
 
@@ -71,7 +83,13 @@ body {
   margin-bottom: $spacing-super;
 
   .c-badge {
-    margin: $spacing-tiny;
+    margin: $spacing-xsmall;
+    color: $text-color;
+    border: none;
+    padding-top: $spacing-medium;
+    padding-bottom: $spacing-medium;
+    padding-right: $spacing-large;
+    padding-left: $spacing-large;
   }
 }
 

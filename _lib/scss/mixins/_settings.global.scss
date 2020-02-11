@@ -54,8 +54,21 @@ $color-orange: #FF9800 !default;
 $color-brown: #795548 !default;
 
 $color-nh-blue-light: #4497c1 !default;
+$color-nh-blue-lightish: #1b6e98 !default;
+$nh-purple: #76009f;
+$nh-purple-dark: #591571;
+$nh-green: #70c700;
+$nh-green-light: #efffd1;
+$nh-blue-pale: #65A6F2;
+$nh-pink: #FF53D3;
+$nh-pink-light: #E09EEE;
+$nh-lime: #C4E500;
+$nh-lime-light: #B8E986;
+$nh-orange: #F5A623;
+$nh-coral: #50E3C2;
 
-$color-brand: #76009f !default;
+
+$color-brand:$color-nh-blue-lightish !default;
 $color-info: $color-blue !default;
 $color-warning: $color-orange !default;
 $color-success: $color-green !default;

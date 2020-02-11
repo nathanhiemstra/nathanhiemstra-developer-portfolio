@@ -11,11 +11,11 @@
     background-color: #96a8b2; }
 
 .c-range--brand:not(:disabled)::-webkit-slider-runnable-track {
-  background-color: #76009f; }
+  background-color: #1b6e98; }
 .c-range--brand:not(:disabled)::-moz-range-track {
-  background-color: #76009f; }
+  background-color: #1b6e98; }
 .c-range--brand:not(:disabled)::-ms-track {
-  background-color: #76009f; }
+  background-color: #1b6e98; }
 
 .c-range--info:not(:disabled)::-webkit-slider-runnable-track {
   background-color: #145271; }
